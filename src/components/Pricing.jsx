@@ -23,7 +23,7 @@ const Pricing = () => {
                         </ul>
                     </div>
 
-                    <div style={{
+                    <div className="mobile-card-padding" style={{
                         flex: 1,
                         background: 'var(--bg-color)',
                         padding: '40px',

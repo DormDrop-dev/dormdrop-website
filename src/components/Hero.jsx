@@ -49,7 +49,7 @@ const Hero = () => {
                         Get food from your favorite on-campus restaurants delivered straight to your door. Created for GCU students.
                     </p>
 
-                    <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                    <div className="mobile-center" style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                         <a href="https://apps.apple.com/us/app/dormdrop-food-delivery/id6749652518" target="_blank" rel="noopener noreferrer">
                             <img
                                 src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
@@ -92,7 +92,7 @@ const Hero = () => {
                             }}
                         />
                         {/* Floating Element */}
-                        <div style={{
+                        <div className="floating-card" style={{
                             position: 'absolute',
                             bottom: '40px',
                             left: '-20px',

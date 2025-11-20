@@ -175,4 +175,24 @@ button {
     flex-direction: column;
     gap: 40px;
   }
+
+  .mobile-center {
+    justify-content: center !important;
+  }
+
+  .steps-grid {
+    flex-direction: column;
+  }
+
+  /* Fix floating card on mobile */
+  .floating-card {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 20px !important;
+    width: max-content;
+  }
+
+  .mobile-card-padding {
+    padding: 24px !important;
+  }
 }

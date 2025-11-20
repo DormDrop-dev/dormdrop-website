@@ -7,7 +7,7 @@ const PricingCalculator = () => {
     const deliveryFee = (mealPrice * 0.15) + 3 + parseFloat(tip);
 
     return (
-        <div style={{
+        <div className="mobile-card-padding" style={{
             marginTop: '40px',
             background: 'var(--surface-color)',
             padding: '32px',

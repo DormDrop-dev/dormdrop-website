@@ -50,7 +50,7 @@ const HowItWorks = () => {
                     <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Get your food in 3 simple steps</p>
                 </div>
 
-                <div style={{
+                <div className="steps-grid" style={{
                     display: 'flex',
                     gap: '32px',
                     flexWrap: 'wrap'
