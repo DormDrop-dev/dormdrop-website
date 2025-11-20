@@ -21,10 +21,10 @@ const Header = () => {
           <img
             src="https://dormdrop.carrd.co/assets/images/image03.png?v=fb0f2a9e"
             alt="DormDrop Logo"
-            style={{ height: '40px', width: 'auto' }}
+            style={{ height: '40px', width: 'auto', maxWidth: '100%' }}
           />
         </div>
-        <nav>
+        <nav className="mobile-nav-hidden">
           <a href="#how-it-works" style={{ marginLeft: '20px', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>How it Works</a>
           <a href="#pricing" style={{ marginLeft: '20px', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Pricing</a>
           <a href="#contact" style={{ marginLeft: '20px', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Contact</a>
