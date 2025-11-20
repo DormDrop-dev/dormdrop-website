@@ -54,19 +54,19 @@ const FAQ = () => {
     const faqs = [
         {
             question: "How do I pay for the meal?",
-            answer: "You pay for the meal separately through the restaurant's own payment system or meal plan. DormDrop only charges for the delivery service."
+            answer: "You pay for your food inside the GCU Mobile Ordering app like normal. Then you upload the screen recording into DormDrop so we can deliver it."
         },
         {
             question: "What is the service fee?",
-            answer: "Our fee is calculated as 15% of the meal price + a $3.00 base fee. This covers the cost of coordinating and delivering your order."
+            answer: "DormDrop charges a $3 flat delivery fee + 15% of your order total, plus whatever tip you choose. You’re only charged once a deliverer accepts your order."
         },
         {
             question: "Can I order from any restaurant?",
-            answer: "We currently support select on-campus restaurants. Check the app for the full list of available locations."
+            answer: "Yes—any restaurant available in GCU Mobile Ordering works with DormDrop, since delivery is based on your existing mobile order."
         },
         {
             question: "How long does delivery take?",
-            answer: "Delivery times vary based on demand and restaurant wait times, but we aim to get your food to you as quickly as possible."
+            answer: "Most deliveries take 15–25 minutes, depending on restaurant wait times. Deliverers must meet food-safety timers (1–2 hours max depending on temperature)."
         }
     ];
 
