@@ -194,10 +194,13 @@ button {
 
   /* Fix floating card on mobile */
   .floating-card {
-    position: static !important;
-    transform: none !important;
-    margin: 20px auto 0 !important;
+    position: absolute !important;
+    left: 50% !important;
+    bottom: 0 !important;
+    transform: translate(-50%, 50%) !important;
+    margin: 0 !important;
     width: max-content;
+    z-index: 10;
   }
 
   .mobile-card-padding {

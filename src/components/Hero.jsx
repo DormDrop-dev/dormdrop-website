@@ -77,7 +77,7 @@ const Hero = () => {
               }
             `}
                     </style>
-                    <div style={{ animation: 'float 6s ease-in-out infinite' }}>
+                    <div style={{ animation: 'float 6s ease-in-out infinite', position: 'relative' }}>
                         <img
                             src="https://dormdrop.carrd.co/assets/images/image01.jpg?v=fb0f2a9e"
                             alt="DormDrop App Interface"
