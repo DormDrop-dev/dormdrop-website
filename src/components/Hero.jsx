@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section style={{
+        <section className="hero-section" style={{
             padding: '160px 0 80px',
             minHeight: '90vh',
             display: 'flex',

@@ -22,6 +22,7 @@ const Footer = () => {
                         <h4 style={{ fontSize: '1.1rem', marginBottom: '16px' }}>Links</h4>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                             <a href="https://www.instagram.com/dormdropco/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>Instagram</a>
+                            <a href="https://www.linkedin.com/company/108979117" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>LinkedIn</a>
                             <a href="mailto:support@dormdrop.us" style={{ color: 'var(--text-secondary)' }}>Support</a>
                             <Link to="/privacy-policy" style={{ color: 'var(--text-secondary)' }}>Privacy Policy</Link>
                             <Link to="/terms-of-service" style={{ color: 'var(--text-secondary)' }}>Terms of Service</Link>
