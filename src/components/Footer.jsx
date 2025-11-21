@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -23,7 +23,8 @@ const Footer = () => {
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                             <a href="https://www.instagram.com/dormdropco/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--text-secondary)' }}>Instagram</a>
                             <a href="mailto:support@dormdrop.us" style={{ color: 'var(--text-secondary)' }}>Support</a>
-                            <a href="#" style={{ color: 'var(--text-secondary)' }}>Privacy Policy</a>
+                            <Link to="/privacy-policy" style={{ color: 'var(--text-secondary)' }}>Privacy Policy</Link>
+                            <Link to="/terms-of-service" style={{ color: 'var(--text-secondary)' }}>Terms of Service</Link>
                         </div>
                     </div>
 
